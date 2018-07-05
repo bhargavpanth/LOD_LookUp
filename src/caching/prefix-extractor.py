@@ -24,7 +24,7 @@ def parse(page):
 
 def json_dump():
     global prefix
-    with open('./cache/prefix_dump.json') as dump_file:
+    with open('./cache/prefix_dump.json', 'w+') as dump_file:
         data = {'prefix': prefix}
         json_str = json.dumps(data, indent=4, sort_keys=True, separators=(',', ': '), ensure_ascii=False)
         dump_file.write(json_str)
