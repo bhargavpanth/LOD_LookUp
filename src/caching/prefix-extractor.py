@@ -1,5 +1,7 @@
 import urllib
 from bs4 import BeautifulSoup
+import json
+import io
 
 prefix = list()
 
@@ -20,16 +22,24 @@ def parse(page):
 		for each_prefix in soup.findAll('span', {'class': 'prefix'}):
 			prefix.append(each_prefix.getText())
 
+def json_dump():
+    global prefix
+    with open('./cache/prefix_dump.json') as dump_file:
+        data = {'prefix': prefix}
+        json_str = json.dumps(data, indent=4, sort_keys=True, separators=(',', ': '), ensure_ascii=False)
+        dump_file.write(json_str)
+
 
 def main():
-	global prefix
-	url = 'http://lov.okfn.org/dataset/lov/vocabs?&page='
-	for counter in range(1, 44):
-		_url = url + str(counter)
-		content = request(_url)
-		parse(content)
+    global prefix
+    url = 'http://lov.okfn.org/dataset/lov/vocabs?&page='
+    for counter in range(1, 44):
+        _url = url + str(counter)
+        content = request(_url)
+        parse(content)
+    print 'Obtained all vocabulary prefixes from http://lov.okfn.org'
+    json_dump()
 
-	print prefix
 
 
 if __name__ == '__main__':
