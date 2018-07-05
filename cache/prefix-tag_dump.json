@@ -1,0 +1,4002 @@
+[
+    {
+        "prefix": "acco",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "acl",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "acm",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "acrt",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "adms",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "af",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "agls",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "agr",
+        "tags": [
+            "Government",
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "agrelon",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "aiiso",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "airs",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "akt",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "akts",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "algo",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "am",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "aml",
+        "tags": [
+            "Industry",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "ao",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "aos",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "api",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "apps4X",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "arch",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "arp",
+        "tags": [
+            "Geography",
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "atd",
+        "tags": [
+            "IoT",
+            "Transport"
+        ]
+    },
+    {
+        "prefix": "atm",
+        "tags": [
+            "Travel",
+            "Transport"
+        ]
+    },
+    {
+        "prefix": "atts",
+        "tags": [
+            "Time",
+            "IoT",
+            "Geography",
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "awol",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "aws",
+        "tags": [
+            "Methods",
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "bag",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "basic",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "bbc",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "bbccms",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "bbccore",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "bbcprov",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "bci",
+        "tags": [
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "being",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "bevon",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "bf",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "bibo",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "bibtex",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "bio",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "biol",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "biopax",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "biotop",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "biro",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "blt",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "bot",
+        "tags": [
+            "Catalogs",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "botany",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "bperson",
+        "tags": [
+            "Society",
+            "People"
+        ]
+    },
+    {
+        "prefix": "br",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "brk",
+        "tags": [
+            "Environment",
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "brt",
+        "tags": [
+            "Geography",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "bto",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "c4n",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "c4o",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "cal",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "cart",
+        "tags": [
+            "Geography",
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "cbo",
+        "tags": [
+            "Image",
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "cbs",
+        "tags": [
+            "Geography",
+            "Government"
+        ]
+    },
+    {
+        "prefix": "cc",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "cci",
+        "tags": [
+            "Services",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "cco",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "ccp",
+        "tags": [
+            "Industry",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "ccr",
+        "tags": [
+            "Geography",
+            "Services",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "ccsla",
+        "tags": [
+            "Services",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "cdm",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "cdtype",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "ceo",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "cerif",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "cert",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "cff",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "cfp",
+        "tags": [
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "cfrl",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "cgov",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "chord",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "cis",
+        "tags": [
+            "Events",
+            "Government",
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "cito",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "citof",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "cl",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "cld",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "cmo",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "cnt",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "co",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "sdmx-code",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "cogs",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "cold",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "coll",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "comm",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "con",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "conversion",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "coo",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "coun",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "cpa",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "eac-cpf",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "crm",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "cro",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "crsw",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "cs",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "csp",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "csvw",
+        "tags": [
+            "W3C Rec",
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "ct",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "ctag",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "ctorg",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "ctxdesc",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "cwmo",
+        "tags": [
+            "Image",
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "cwork",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "cwrc",
+        "tags": [
+            "Society",
+            "People"
+        ]
+    },
+    {
+        "prefix": "d2rq",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "dady",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "daia",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "daq",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "dataid",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "date",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "datex",
+        "tags": [
+            "Travel",
+            "Services",
+            "Government"
+        ]
+    },
+    {
+        "prefix": "dave",
+        "tags": [
+            "General & Upper",
+            "Geometry",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "dbm",
+        "tags": [
+            "Health"
+        ]
+    },
+    {
+        "prefix": "dbowl",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "dbpedia-owl",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "dbug",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "dcam",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "dcat",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "dce",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "dcite",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "dcndl",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "dcterms",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "dctype",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "decision",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "demlab",
+        "tags": [
+            "Health"
+        ]
+    },
+    {
+        "prefix": "deo",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "deps",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "dicom",
+        "tags": [
+            "Health"
+        ]
+    },
+    {
+        "prefix": "sdmx-dimension",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "dio",
+        "tags": [
+            "Methods",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "disco",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "dita",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "dk",
+        "tags": [
+            "Vocabularies",
+            "Industry",
+            "Methods",
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "dm2e",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "dnbt",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "doap",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "doc",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "doco",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "docso",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "dogont",
+        "tags": [
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "donto",
+        "tags": [
+            "Metadata",
+            "Government"
+        ]
+    },
+    {
+        "prefix": "dpn",
+        "tags": [
+            "Services",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "dprov",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "dq",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "dqc",
+        "tags": [
+            "eBusiness",
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "dqm",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "dqv",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "dr",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "drm",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "ds",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "dsn",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "dso",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "dtype",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "dul",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "duv",
+        "tags": [
+            "People",
+            "Society"
+        ]
+    },
+    {
+        "prefix": "dvia",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "earl",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "earth",
+        "tags": [
+            "Society",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "ebucore",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "eccrev",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "eclap",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "ecpo",
+        "tags": [
+            "Time",
+            "Press"
+        ]
+    },
+    {
+        "prefix": "ecrm",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "edac",
+        "tags": [
+            "Catalogs",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "edm",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "eem",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "eepsa",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "elec",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "eli",
+        "tags": [
+            "Contracts",
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "emotion",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "emp",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "ends",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "ep",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "eqp",
+        "tags": [
+            "Transport",
+            "Industry",
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "essglobal",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "seas-eval",
+        "tags": [
+            "Methods",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "event",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "ex",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "exif",
+        "tags": [
+            "Image"
+        ]
+    },
+    {
+        "prefix": "ext",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "fabio",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "faldo",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "fea",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "fiesta-iot",
+        "tags": [
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "foaf",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "foio",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "food",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "fowl",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "frad",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "frapo",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "frappe",
+        "tags": [
+            "Geography",
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "frbr",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "frbre",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "frbrer",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "fresnel",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "g50k",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "game",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "gc",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "gci",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "gd",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "gen",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "geo",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "geod",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "geof",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "geofla",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "geom",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "geop",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "geosp",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "gf",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "gm",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "ludo-gm",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "gml",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "gn",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "gndo",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "gold",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "gov",
+        "tags": [
+            "Society",
+            "Time"
+        ]
+    },
+    {
+        "prefix": "ludo-gp",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "gr",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "grddl",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "gso",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "gsp",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "gtfs",
+        "tags": [
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "gts",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "gvp",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "h2o",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "ha",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "hdo",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "hifm",
+        "tags": [
+            "Health",
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "holding",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "hosp",
+        "tags": [
+            "Health"
+        ]
+    },
+    {
+        "prefix": "hr",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "hto",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "http",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "hw",
+        "tags": [
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "hydra",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "ic",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "idemo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "identity",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "igeo",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "ignf",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "imo",
+        "tags": [
+            "Image"
+        ]
+    },
+    {
+        "prefix": "incident",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "infor",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "inno",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "interval",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "wf-invoc",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "iol",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "iot-lite",
+        "tags": [
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ioto",
+        "tags": [
+            "Services",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ipo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "irw",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "is",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "isbd",
+        "tags": [
+            "Metadata",
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "iso-thes",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "iso37120",
+        "tags": [
+            "General & Upper",
+            "Society"
+        ]
+    },
+    {
+        "prefix": "isoadr",
+        "tags": [
+            "Vocabularies",
+            "Quality",
+            "Geography",
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "ispra",
+        "tags": [
+            "Catalogs",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "itm",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "itsmo",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "jup",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "juso",
+        "tags": [
+            "Geography",
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "juso.kr",
+        "tags": [
+            "Geometry",
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "kdo",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "kees",
+        "tags": [
+            "Services",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "keys",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "km4c",
+        "tags": [
+            "Society",
+            "Environment",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "label",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lawd",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "lcy",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "ldp",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "ldr",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "ldvm",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "lemon",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lexinfo",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lgdo",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "li",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "lib",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "lifecycle",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "limo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "limoo",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "lingvo",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lio",
+        "tags": [
+            "Image"
+        ]
+    },
+    {
+        "prefix": "llont",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "lmm1",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lmm2",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "loc",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "locah",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "locn",
+        "tags": [
+            "Geography",
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "san-lod",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "lode",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "log",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "lom",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "losp",
+        "tags": [
+            "Tag",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "loted",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "lsc",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "lslife",
+        "tags": [
+            "Services",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "lsmap",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "lsq",
+        "tags": [
+            "Metadata",
+            "Support"
+        ]
+    },
+    {
+        "prefix": "lsweb",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "lswmo",
+        "tags": [
+            "Support",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "lswpm",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "ludo-vc",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "ludo",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "ludo-xapi",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "lv",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "lvont",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "lyou",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "m3lite",
+        "tags": [
+            "Services",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ma-ont",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "mads",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "marl",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "maso",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "md",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "mdi",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "meb",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "media",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "medred",
+        "tags": [
+            "Health",
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "mexalgo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "mexcore",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "mexperf",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "mil",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "mls",
+        "tags": [
+            "Support",
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "mo",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "moac",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "moat",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "mrel",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "msm",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "msr",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "mtlo",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "music",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "muto",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "mv",
+        "tags": [
+            "Services",
+            "IoT",
+            "Transport"
+        ]
+    },
+    {
+        "prefix": "mvco",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "nao",
+        "tags": [
+            "SSDesk"
+        ]
+    },
+    {
+        "prefix": "nas",
+        "tags": [
+            "Transport",
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "ncal",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "nco",
+        "tags": [
+            "SSDesk"
+        ]
+    },
+    {
+        "prefix": "nfo",
+        "tags": [
+            "SSDesk"
+        ]
+    },
+    {
+        "prefix": "ngeo",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "nie",
+        "tags": [
+            "SSDesk"
+        ]
+    },
+    {
+        "prefix": "nif",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "nlon",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "npg",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "nrl",
+        "tags": [
+            "SSDesk"
+        ]
+    },
+    {
+        "prefix": "nrv",
+        "tags": [
+            "Security",
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "nsl",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "ntag",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "oa",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "oad",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "oae",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "oan",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "obo",
+        "tags": [
+            "Biology",
+            "Health"
+        ]
+    },
+    {
+        "prefix": "obsm",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "obws",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "oc",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "ocd",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "ocds",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "odapp",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "odapps",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "odpart",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "odrl",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "odrs",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "odv",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "oecc",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "of",
+        "tags": [
+            "Industry",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ofrd",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "og",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "oh",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "olca",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "olo",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "om",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "oml",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "omn",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "omnfed",
+        "tags": [
+            "Society",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "omnlc",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "onc",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "ont",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "ontopic",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "ontosec",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "onyx",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "oo",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "op",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "seas-op",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "open311",
+        "tags": [
+            "Society",
+            "Events"
+        ]
+    },
+    {
+        "prefix": "opmo",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "opmv",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "opmw",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "opo",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "opus",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "orca",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "ore",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "org",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "orges",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "osadm",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "osgeom",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "oslc",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "oslo",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "osp",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "osr",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "osspr",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "ostop",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "ov",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "owl",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "p-plan",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "parl",
+        "tags": [
+            "Government"
+        ]
+    },
+    {
+        "prefix": "part",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "passim",
+        "tags": [
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "pat",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "pattern",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "pav",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "pay",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "pbo",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "pc",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "pdo",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "pep",
+        "tags": [
+            "Industry",
+            "Services",
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "person",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "pext",
+        "tags": [
+            "PROTON"
+        ]
+    },
+    {
+        "prefix": "phdd",
+        "tags": [
+            "CSV"
+        ]
+    },
+    {
+        "prefix": "place",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "plink",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "plo",
+        "tags": [
+            "Music"
+        ]
+    },
+    {
+        "prefix": "pmlp",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "pmofn",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "pmonb",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "pmopb",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "pmovn",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "pna",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "pnc",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "pne",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "pni",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "pns",
+        "tags": [
+            "Press"
+        ]
+    },
+    {
+        "prefix": "pnt",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "po",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "poder",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "postcode",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "poste",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "ppo",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "pproc",
+        "tags": [
+            "Contracts"
+        ]
+    },
+    {
+        "prefix": "pr",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "premis",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "prissma",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "pro",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "prog",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "prov",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "provoc",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "prv",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "prvt",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "pso",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "ptop",
+        "tags": [
+            "PROTON"
+        ]
+    },
+    {
+        "prefix": "pubsub",
+        "tags": [
+            "API",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "pwo",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "qb",
+        "tags": [
+            "Methods",
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "qb4o",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "qu",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "qudt",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "seas-qudt",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "r4r",
+        "tags": [
+            "Support",
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "radion",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rami",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "raul",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "rdaa",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdac",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdae",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdafrbr",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdag1",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rdag2",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rdag3",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rdai",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdam",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdarel",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rdarel2",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "rdarole",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdau",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdaw",
+        "tags": [
+            "FRBR"
+        ]
+    },
+    {
+        "prefix": "rdf",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "rdfa",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "rdfg",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "rdfp",
+        "tags": [
+            "API",
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "rdfs",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "rec",
+        "tags": [
+            "Rec"
+        ]
+    },
+    {
+        "prefix": "rec54",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "reco",
+        "tags": [
+            "RDF",
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "reegle",
+        "tags": [
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "rel",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "remetca",
+        "tags": [
+            "SPAR"
+        ]
+    },
+    {
+        "prefix": "rev",
+        "tags": [
+            "Rec"
+        ]
+    },
+    {
+        "prefix": "rlog",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "ro",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "rooms",
+        "tags": [
+            "Environment",
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "rov",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "rr",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "rsctx",
+        "tags": [
+            "Services",
+            "API"
+        ]
+    },
+    {
+        "prefix": "rss",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "ru",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "ruto",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "s4ac",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "s4ee",
+        "tags": [
+            "Services",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "sam",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "samfl",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "SAN",
+        "tags": [
+            "Support",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "sao",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "saref",
+        "tags": [
+            "Services",
+            "Industry",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "saws",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "schema",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "scip",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "scoro",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "scot",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "scovo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "scsv",
+        "tags": [
+            "CSV"
+        ]
+    },
+    {
+        "prefix": "sd",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "sdmx",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "sdo",
+        "tags": [
+            "Catalogs"
+        ]
+    },
+    {
+        "prefix": "search",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "seas-stats",
+        "tags": [
+            "Methods",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seas",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seas-sys",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seasb",
+        "tags": [
+            "IoT",
+            "Environment",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seasbo",
+        "tags": [
+            "Society",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "seasd",
+        "tags": [
+            "IoT",
+            "Environment",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seasfo",
+        "tags": [
+            "IoT",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "seast",
+        "tags": [
+            "Time",
+            "IoT",
+            "Environment",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "seasto",
+        "tags": [
+            "Environment",
+            "Industry",
+            "Services"
+        ]
+    },
+    {
+        "prefix": "security",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "sem",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "semio",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "semsur",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "seo",
+        "tags": [
+            "Academy",
+            "Events"
+        ]
+    },
+    {
+        "prefix": "seq",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "service",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "sf",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "sh",
+        "tags": [
+            "W3C Rec",
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "shoah",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "shw",
+        "tags": [
+            "Environment",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "sim",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "sio",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "sioc",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "situ",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "skos",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "skosxl",
+        "tags": [
+            "W3C Rec"
+        ]
+    },
+    {
+        "prefix": "smg",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "snarm",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "sor",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "sosa",
+        "tags": [
+            "IoT",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "sp",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "spatial",
+        "tags": [
+            "Geometry"
+        ]
+    },
+    {
+        "prefix": "spcm",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "spfood",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "spin",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "sport",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "spt",
+        "tags": [
+            "Methods",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "spvqa",
+        "tags": [
+            "Tag",
+            "Vocabularies",
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "sql",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "sro",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "w3c-ssn",
+        "tags": [
+            "IoT",
+            "Environment"
+        ]
+    },
+    {
+        "prefix": "ssn",
+        "tags": [
+            "Methods",
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ssno",
+        "tags": [
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "ssso",
+        "tags": [
+            "Services"
+        ]
+    },
+    {
+        "prefix": "st",
+        "tags": [
+            "Society",
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "stac",
+        "tags": [
+            "Security"
+        ]
+    },
+    {
+        "prefix": "step",
+        "tags": [
+            "Geography",
+            "Time"
+        ]
+    },
+    {
+        "prefix": "sto",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "stories",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "summa",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "swc",
+        "tags": [
+            "Society",
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "swp",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "swpm",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "swpo",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "swrc",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "swrl",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "tac",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "tag",
+        "tags": [
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "tao",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "taxon",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "te",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "teach",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "test",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "theatre",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "thors",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "ti",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "time",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "tio",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "tis",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "tisc",
+        "tags": [
+            "Events"
+        ]
+    },
+    {
+        "prefix": "tl",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "tm",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "tmo",
+        "tags": [
+            "Health"
+        ]
+    },
+    {
+        "prefix": "topo",
+        "tags": [
+            "Geography"
+        ]
+    },
+    {
+        "prefix": "tp",
+        "tags": [
+            "Events",
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "traffic",
+        "tags": [
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "trait",
+        "tags": [
+            "Multimedia"
+        ]
+    },
+    {
+        "prefix": "transit",
+        "tags": [
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "trao",
+        "tags": [
+            "Services",
+            "Travel",
+            "Transport"
+        ]
+    },
+    {
+        "prefix": "tsioc",
+        "tags": [
+            "Society"
+        ]
+    },
+    {
+        "prefix": "tsn",
+        "tags": [
+            "Geography",
+            "Geometry",
+            "Government"
+        ]
+    },
+    {
+        "prefix": "tsnc",
+        "tags": [
+            "Geography",
+            "Geometry",
+            "Government",
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "turismo",
+        "tags": [
+            "Travel"
+        ]
+    },
+    {
+        "prefix": "tvc",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "txn",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "tzont",
+        "tags": [
+            "Time"
+        ]
+    },
+    {
+        "prefix": "uby",
+        "tags": [
+            "Support",
+            "Tag"
+        ]
+    },
+    {
+        "prefix": "uco",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "ucum",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "ui",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "umbel",
+        "tags": [
+            "General & Upper"
+        ]
+    },
+    {
+        "prefix": "uneskos",
+        "tags": [
+            "RDF"
+        ]
+    },
+    {
+        "prefix": "uniprot",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "uri4uri",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "va",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "vaem",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "vag",
+        "tags": [
+            "Support"
+        ]
+    },
+    {
+        "prefix": "vann",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "vcard",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "vdpp",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "veo",
+        "tags": [
+            "Environment",
+            "Industry"
+        ]
+    },
+    {
+        "prefix": "vgo",
+        "tags": [
+            "Games"
+        ]
+    },
+    {
+        "prefix": "vin",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "vivo",
+        "tags": [
+            "Academy"
+        ]
+    },
+    {
+        "prefix": "vmm",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "voaf",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "voag",
+        "tags": [
+            "Quality"
+        ]
+    },
+    {
+        "prefix": "vocals",
+        "tags": [
+            "IoT"
+        ]
+    },
+    {
+        "prefix": "void",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "voidwh",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "vra",
+        "tags": [
+            "Image"
+        ]
+    },
+    {
+        "prefix": "vrank",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "vs",
+        "tags": [
+            "Metadata"
+        ]
+    },
+    {
+        "prefix": "vsearch",
+        "tags": [
+            "Vocabularies"
+        ]
+    },
+    {
+        "prefix": "vso",
+        "tags": [
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "vvo",
+        "tags": [
+            "Industry",
+            "eBusiness"
+        ]
+    },
+    {
+        "prefix": "wai",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "wdrs",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "wfdesc",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "wfm",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "wfprov",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "whisky",
+        "tags": [
+            "Food"
+        ]
+    },
+    {
+        "prefix": "whois",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "wi",
+        "tags": [
+            "People"
+        ]
+    },
+    {
+        "prefix": "wikim",
+        "tags": [
+            "PLM"
+        ]
+    },
+    {
+        "prefix": "wl",
+        "tags": [
+            "API"
+        ]
+    },
+    {
+        "prefix": "wlo",
+        "tags": [
+            "Biology"
+        ]
+    },
+    {
+        "prefix": "wo",
+        "tags": [
+            "Methods"
+        ]
+    },
+    {
+        "prefix": "wot",
+        "tags": [
+            "Quality",
+            "Security"
+        ]
+    },
+    {
+        "prefix": "xapi",
+        "tags": [
+            "API"
+        ]
+    }
+]
