@@ -20,4 +20,25 @@ else:
 def request(url):
     return urllib.urlopen(url).read()
 
+def extract(page, pf):
+    tags = list()
+    try:
+        soup = BeautifulSoup(page, 'html.parser')
+    except Exception as e:
+        raise
+    else:
+        try:
+            for each_tag in soup.findAll('a', {'class': 'tag'}):
+                tags.append(each_tag)
+        except Exception as e:
+            print 'no tags found for vocab', pf
+
+def main():
+    global prefix_list
+    url = 'http://lov.okfn.org/dataset/lov/vocabs/'
+    for each_prefix in prefix_list:
+        _url = url + str(each_prefix)
+        content = request(_url)
+        extract(content, str(each_prefix))
+
 # print prefix_list
