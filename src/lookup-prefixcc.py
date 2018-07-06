@@ -33,6 +33,20 @@ def find_prefix(url, count, dataset):
     return prefix, count
 
 
+def find_tag_of_vocab(prefix):
+    try:
+        with open('./cache/prefix-tag_dump.json') as prefix_tag:
+            content = json.load(prefix_tag)
+    except Exception as e:
+        print 'prefix-tag_dump.json dump not found, run cache scripts at first'
+        raise e
+    else:
+        for each_content in content:
+            # if prefix is each_content['prefix']:
+            #     print each_content['tags']
+            # print '----'
+
+
 def connect_mongodb(dataset_name):
     try:
         client = MongoClient('localhost', 27017)
@@ -44,7 +58,8 @@ def connect_mongodb(dataset_name):
         dataset = db.vocab.find({'dataset': str(dataset_name)})
         for each_entry in dataset:
             pref, count  = find_prefix(each_entry['vocab'], each_entry['count'], dataset_name)
-            print dataset_name, pref, count
+            # print dataset_name, pref, count
+            find_tag_of_vocab(pref)
 
 def main():
     try:
