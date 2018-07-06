@@ -27,10 +27,10 @@ def parse_vocab_prefix(content):
 def find_prefix(url, count, dataset):
     encode_vocab = urllib.quote_plus(str(url))
     _url = "http://prefix.cc/?q="+encode_vocab
-    # print _url
     content = request(_url)
     prefix = parse_vocab_prefix(content)
-    print dataset , ' --> ' ,  prefix , ' --> ' , count
+    # print dataset , ' --> ' ,  prefix , ' --> ' , count
+    return prefix, count
 
 
 def connect_mongodb(dataset_name):
@@ -43,8 +43,8 @@ def connect_mongodb(dataset_name):
         db = client['lodcloud']
         dataset = db.vocab.find({'dataset': str(dataset_name)})
         for each_entry in dataset:
-            find_prefix(each_entry['vocab'], each_entry['count'], dataset_name)
-        
+            pref, count  = find_prefix(each_entry['vocab'], each_entry['count'], dataset_name)
+            print dataset_name, pref, count
 
 def main():
     try:
