@@ -6,8 +6,8 @@ def get_all_dataset_names():
     try:
         client = MongoClient('localhost', 27017)
     except Exception as e:
-        raise
-        print 'Unable to connect to MongoDD - Ensure the collection vocab exists within lodcloud dataset'
+        print 'Unable to connect to MongoDD - Ensure the collection name - [vocab] exists within db name - [lodcloud] dataset with <dataset, vocab, count>'
+        raise e
     else:
         db = client['lodcloud']
         datasets = db.vocab.distinct("dataset")
