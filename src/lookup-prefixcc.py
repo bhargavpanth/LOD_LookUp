@@ -44,6 +44,7 @@ def insert_vocab_dataset_domain(dataset, tag, prefix, count):
         dataset = db.domain_vocab.insert({'dataset': dataset, 'tag': tag, 'prefix': prefix, 'count': count})
 
 
+
 def find_tag_of_vocab(prefix, dataset_name, count):
     # print prefix
     # print '--sent prefix--'
@@ -59,7 +60,7 @@ def find_tag_of_vocab(prefix, dataset_name, count):
         else:
             for each_content in content:
                 if prefix in each_content['prefix']:
-                    print 'Dataset : ', dataset_name, ' Tags : ', each_content['tags'], ' Prefix : ', prefix, ' Count : ', count
+                    insert_vocab_dataset_domain(dataset_name, each_content['tags'], prefix, count)
                 # else:
                 #     print 'No prefix found'
             # print '--+-+-+-+-+-+-+-+-+--'
