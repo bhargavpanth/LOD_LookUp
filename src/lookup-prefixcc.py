@@ -42,7 +42,7 @@ def insert_vocab_dataset_domain(dataset, tag, prefix, count):
     else:
         db = client['lodcloud']
         dataset = db.domain_vocab.insert({'dataset': dataset, 'tag': tag, 'prefix': prefix, 'count': count})
-
+        print 'Dataset : ', dataset, ' Tags : ', tag, ' Prefix : ', prefix, ' Count : ', count
 
 
 def find_tag_of_vocab(prefix, dataset_name, count):
