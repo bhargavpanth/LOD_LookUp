@@ -33,6 +33,17 @@ def find_prefix(url):
     return prefix
 
 
+def insert_vocab_dataset_domain(dataset, tag, prefix, count):
+    try:
+        client = MongoClient('localhost', 27017)
+    except Exception as e:
+        print 'Unable to connect to MongoDB'
+        raise e
+    else:
+        db = client['lodcloud']
+        dataset = db.domain_vocab.insert({'dataset': dataset, 'tag': tag, 'prefix': prefix, 'count': count})
+
+
 def find_tag_of_vocab(prefix, dataset_name, count):
     # print prefix
     # print '--sent prefix--'
