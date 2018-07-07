@@ -24,27 +24,34 @@ def parse_vocab_prefix(content):
             return prefix
 
 
-def find_prefix(url, count, dataset):
+def find_prefix(url):
     encode_vocab = urllib.quote_plus(str(url))
     _url = "http://prefix.cc/?q="+encode_vocab
     content = request(_url)
     prefix = parse_vocab_prefix(content)
     # print dataset , ' --> ' ,  prefix , ' --> ' , count
-    return prefix, count
+    return prefix
 
 
-def find_tag_of_vocab(prefix):
-    try:
-        with open('./cache/prefix-tag_dump.json') as prefix_tag:
-            content = json.load(prefix_tag)
-    except Exception as e:
-        print 'prefix-tag_dump.json dump not found, run cache scripts at first'
-        raise e
+def find_tag_of_vocab(prefix, dataset_name, count):
+    # print prefix
+    # print '--sent prefix--'
+    if prefix is 'no registered prefix':
+        pass
     else:
-        for each_content in content:
-            # if prefix is each_content['prefix']:
-            #     print each_content['tags']
-            # print '----'
+        try:
+            with open('./cache/prefix-tag_dump.json') as prefix_tag:
+                content = json.load(prefix_tag)
+        except Exception as e:
+            print 'prefix-tag_dump.json dump not found, run cache scripts at first'
+            raise e
+        else:
+            for each_content in content:
+                if prefix in each_content['prefix']:
+                    print 'Dataset : ', dataset_name, ' Tags : ', each_content['tags'], ' Prefix : ', prefix, ' Count : ', count
+                # else:
+                #     print 'No prefix found'
+            # print '--+-+-+-+-+-+-+-+-+--'
 
 
 def connect_mongodb(dataset_name):
@@ -57,9 +64,14 @@ def connect_mongodb(dataset_name):
         db = client['lodcloud']
         dataset = db.vocab.find({'dataset': str(dataset_name)})
         for each_entry in dataset:
-            pref, count  = find_prefix(each_entry['vocab'], each_entry['count'], dataset_name)
+            # print each_entry['vocab']
+            pref  = find_prefix(each_entry['vocab'])
             # print dataset_name, pref, count
-            find_tag_of_vocab(pref)
+            if pref is 'no registered prefix':
+                print 'Dataset : ', dataset_name, ' has unregistered vocabulary ', each_entry['vocab']
+                pass
+            else:
+                find_tag_of_vocab(pref, dataset_name, each_entry['count'])
 
 def main():
     try:
