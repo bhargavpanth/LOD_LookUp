@@ -25,12 +25,15 @@ def parse_vocab_prefix(content):
 
 
 def find_prefix(url):
-    encode_vocab = urllib.quote_plus(str(url))
-    _url = "http://prefix.cc/?q="+encode_vocab
-    content = request(_url)
-    prefix = parse_vocab_prefix(content)
-    # print dataset , ' --> ' ,  prefix , ' --> ' , count
-    return prefix
+    if 'http://purl.org/dc/elements/1.0/' in url:
+        return str('dc')
+    else:
+        encode_vocab = urllib.quote_plus(str(url))
+        _url = "http://prefix.cc/?q="+encode_vocab
+        content = request(_url)
+        prefix = parse_vocab_prefix(content)
+        # print dataset , ' --> ' ,  prefix , ' --> ' , count
+        return prefix
 
 
 def insert_vocab_dataset_domain(dataset, tag, prefix, count):
