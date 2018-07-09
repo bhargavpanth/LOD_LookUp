@@ -1,10 +1,10 @@
 import urllib
 from pymongo import MongoClient
-import sets
+import json
 from bs4 import BeautifulSoup
+import sets
 
-
-def get_vocabs(dataset):
+def get_vocab_ratio(dataset):
     vocab_list = list()
     # given a dataset -> export the vocab list
     try:
@@ -18,21 +18,53 @@ def get_vocabs(dataset):
         for each_vocab in ds:
             vocab_list.append(each_vocab['vocab'])
             # print each_vocab['tag']
-        return vocab_list
+        ratio_of_open_to_close_vocab(vocab_list, dataset)
 
-def ratio_of_open_to_close_vocab(dataset, vocab_list):
+
+def ratio_of_open_to_close_vocab(vocab_list, dataset):
     vocab_set = set()
+    
+    open_vocab_count = 0
+    closed_vocab_count = 0
+
     for each_vocab in vocab_list:
         vocab_set.add(each_vocab)
+    total_vocabs = len(vocab_set)
     for each_vocab_in_set in vocab_set:
         flag = _check_prefix_(each_vocab_in_set)
+
+        if flag is True:
+            open_vocab_count += 1
+        else:
+            closed_vocab_count += 1
     
+    print 'Dataset : ', dataset
+    print 'Open vocabs : ', open_vocab_count
+    print 'Closed vocabs : ', closed_vocab_count
+    print 'Total Vocabs : ', total_vocabs
+    print '-+-+-+-+-+-+-+-+-+-+-+-+-+-+-'
+    
+
 # methods starting and ending with _ are methods used by one or more methods and not called from the main
 def _check_prefix_(vocab):
-    flag = bool()
+    res = __request_prefix__(vocab)
+    # open_vocab_count = 0
+    # closed_vocab_count = 0
+    if res == 'no registered prefix':
+        return True
+    else:
+        return False
+    # return open_vocab_count, closed_vocab_count
 
-    return flag
-
+def __request_prefix__(url):
+    if 'http://purl.org/dc/elements/1.0/' in url:
+        return 'dc'
+    else:
+        encode_vocab = urllib.quote_plus(str(url))
+        _url = "http://prefix.cc/?q="+encode_vocab
+        content = request(_url)
+        prefix = parse_vocab_prefix(content)
+        return prefix
 
 def parse_vocab_prefix(content):
     try:
@@ -52,19 +84,18 @@ def request(url):
     return urllib.urlopen(url).read()
 
 
-def __request_prefix__(url):
-    if 'http://purl.org/dc/elements/1.0/' in url:
-        return str('dc')
-    else:
-        encode_vocab = urllib.quote_plus(str(url))
-        _url = "http://prefix.cc/?q="+encode_vocab
-        content = request(_url)
-        prefix = parse_vocab_prefix(content)
-        # print dataset , ' --> ' ,  prefix , ' --> ' , count
-        return prefix
 
 def main():
-    get_vocabs('Anti-Beatles')
+    try:
+        with open('./cache/dataset_dump.json') as dataset:
+            dataset_names = json.load(dataset)
+    except Exception as e:
+        raise e
+    else:
+        datasets = dataset_names["datasets"]
+        for each_dataset in datasets:
+            get_vocab_ratio(each_dataset)
+            # get_vocab_ratio('Anti-Beatles')
 
 if __name__ == '__main__':
     main()
