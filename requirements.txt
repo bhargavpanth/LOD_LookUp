@@ -1,3 +1,4 @@
 beautifulsoup4==4.6.0
 jsonschema==2.6.0
 pymongo==3.7.0
+matplotlib==2.2.2

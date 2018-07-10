@@ -3,6 +3,20 @@ from pymongo import MongoClient
 import json
 from bs4 import BeautifulSoup
 import sets
+import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
+
+def plot(vocab_list, open_vocab, close_vocab, total_vocab):
+    # labels = vocab_list
+    fracs = [open_vocab, close_vocab]
+    explode = (0, 0.05, 0, 0)
+    # Make square figures and axes
+    the_grid = GridSpec(2, 2)
+    plt.subplot(the_grid[0, 0], aspect=1)
+    plt.pie(fracs, autopct='%1.1f%%', shadow=True)
+    plt.subplot(the_grid[0, 1], aspect=1)
+    plt.show()
+
 
 def get_vocab_ratio(dataset):
     vocab_list = list()
@@ -43,7 +57,7 @@ def ratio_of_open_to_close_vocab(vocab_list, dataset):
     print 'Closed vocabs : ', closed_vocab_count
     print 'Total Vocabs : ', total_vocabs
     print '-+-+-+-+-+-+-+-+-+-+-+-+-+-+-'
-    
+    plot(vocab_list, open_vocab_count, closed_vocab_count, total_vocabs)
 
 # methods starting and ending with _ are methods used by one or more methods and not called from the main
 def _check_prefix_(vocab):
